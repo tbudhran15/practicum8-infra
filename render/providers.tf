@@ -2,12 +2,12 @@ terraform {
   required_providers {
     render = {
       source  = "render-oss/render"
-      version = "1.3.2"
+      version = "1.5.0"
     }
   }
 }
 
 provider "render" {
-  api_key  = "$Env:RENDER_API_KEY"
-  owner_id = "$Env:RENDER_OWNER_ID"
+  api_key  = "rnd_iUrZU0hbFmEtrvnzHIzyl9kwMn0z"
+  owner_id = "tea-cuu0vqd2ng1s73devmjg"
 }

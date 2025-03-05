@@ -1,4 +1,4 @@
-resource "render_project" "tera" {
+resource "render_project" "p466" {
   name = "P466-Spring 2025 m"
 
   environments = {
